@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-struct Content {
+struct Content: Codable {
     let id: Int
     let name: String
     
